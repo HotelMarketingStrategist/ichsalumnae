@@ -1,8 +1,9 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
 <title>ICHS Alumnae Villa Collection | Caribbean Villa Escapes</title>
 <style>
 
@@ -64,13 +65,41 @@ h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;color:var(--deep-
 .cost-head p{margin:0;color:rgba(255,255,255,.88);line-height:1.7}
 .table-wrap{overflow-x:auto}
 table{width:100%;border-collapse:collapse;min-width:1380px}
-th{background:rgba(106,210,200,.12);color:var(--deep-teal);text-align:left;padding:16px;text-transform:uppercase;font-size:11px;letter-spacing:.08em}
-td{padding:16px;border-top:1px solid var(--line);vertical-align:top}
-td em{display:block;color:var(--muted);font-style:normal;font-size:12px;margin-top:4px}
+th{background:rgba(106,210,200,.12);color:var(--deep-teal);text-align:left;padding:12px 9px;text-transform:uppercase;font-size:10px;letter-spacing:.07em;line-height:1.25}
+td{padding:12px 9px;border-top:1px solid var(--line);vertical-align:top;font-size:13px;line-height:1.35;overflow-wrap:anywhere}
+td em{display:block;color:var(--muted);font-style:normal;font-size:11px;margin-top:4px;line-height:1.35}
 tr:nth-child(even) td{background:rgba(106,210,200,.035)}
-.badge{background:rgba(106,210,200,.18);color:var(--deep-teal);font-weight:800;border-radius:999px;padding:7px 10px;white-space:nowrap;display:inline-block}
+.badge{background:rgba(106,210,200,.18);color:var(--deep-teal);font-weight:800;border-radius:999px;padding:6px 8px;white-space:normal;display:inline-block;font-size:11px;line-height:1.25}
 .dest{background:var(--soft-coral)}
 .code{font-weight:900;color:var(--coral)}
+
+  table{min-width:1080px}
+}
+
+.clean-options-table th:nth-child(1), .clean-options-table td:nth-child(1){width:15%}
+.clean-options-table th:nth-child(2), .clean-options-table td:nth-child(2){width:16%}
+.clean-options-table th:nth-child(3), .clean-options-table td:nth-child(3){width:7%}
+.clean-options-table th:nth-child(4), .clean-options-table td:nth-child(4){width:24%}
+.clean-options-table th:nth-child(5), .clean-options-table td:nth-child(5){width:21%}
+.clean-options-table th:nth-child(6), .clean-options-table td:nth-child(6){width:17%}
+.table-sub{display:block;margin-top:7px;color:var(--muted);font-size:12px;line-height:1.35}
+.price-cell span{display:block;margin-bottom:6px}
+.price-cell span:last-child{margin-bottom:0}
+.price-cell b{color:var(--deep-teal)}
+.highlight-price{background:rgba(106,210,200,.08)}
+@media(max-width:760px){
+  th{font-size:9px;padding:10px 6px}
+  td{font-size:11px;padding:10px 6px}
+  .badge{font-size:10px;padding:5px 6px}
+  .table-sub{font-size:10px}
+  .clean-options-table th:nth-child(1), .clean-options-table td:nth-child(1){width:15%}
+  .clean-options-table th:nth-child(2), .clean-options-table td:nth-child(2){width:16%}
+  .clean-options-table th:nth-child(3), .clean-options-table td:nth-child(3){width:7%}
+  .clean-options-table th:nth-child(4), .clean-options-table td:nth-child(4){width:24%}
+  .clean-options-table th:nth-child(5), .clean-options-table td:nth-child(5){width:21%}
+  .clean-options-table th:nth-child(6), .clean-options-table td:nth-child(6){width:17%}
+}
+
 .villa{display:grid;grid-template-columns:.88fr 1.12fr;min-height:650px;margin:34px 0;background:white;border:1px solid var(--line);box-shadow:var(--shadow)}
 .villa:nth-child(even){grid-template-columns:1.12fr .88fr}
 .villa:nth-child(even) .villa-media{order:2}
@@ -141,7 +170,6 @@ footer{background:rgba(0,70,89,.06);color:var(--muted);padding:34px 7vw;text-ali
   .cve-logo{max-width:220px}
 }
 
-
 .contact-note{
   max-width:1380px;
   margin:0 auto 88px;
@@ -168,790 +196,772 @@ footer{background:rgba(0,70,89,.06);color:var(--muted);padding:34px 7vw;text-ali
 </head>
 <body>
 <section class="school-banner">
-  <div class="school-banner-inner">
-    <div class="school-brand">
-      <img src="https://static.wixstatic.com/media/35cf32_fd3f38f589f3448fbe42b7ca5a97aa89~mv2.png/v1/fill/w_248,h_248,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ICHS.png" alt="Immaculate Conception High School Emblem" class="school-emblem">
-      <div class="school-text">
-        <span>Prepared exclusively for</span>
-        <strong>ICHS Alumnae Getaway</strong>
-        <small>In partnership with Caribbean Villa Escapes</small>
-      </div>
-    </div>
-    <div class="cve-brand">
-      <span>Curated by</span>
-      <img src="https://www.caribbeanvillaescapes.com/i/width=200,dpr=2,format=avif?src=https%3A%2F%2Fassets-websites.wander.com%2F652555082201563825%2Flogo-zZi6Iq9n9Aq1MdHLA05Tf.png" alt="Caribbean Villa Escapes Logo" class="cve-logo">
-    </div>
-  </div>
+<div class="school-banner-inner">
+<div class="school-brand">
+<img alt="Immaculate Conception High School Emblem" class="school-emblem" src="https://static.wixstatic.com/media/35cf32_fd3f38f589f3448fbe42b7ca5a97aa89~mv2.png/v1/fill/w_248,h_248,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/ICHS.png"/>
+<div class="school-text">
+<span>Prepared exclusively for</span>
+<strong>ICHS Alumnae Getaway</strong>
+<small>In partnership with Caribbean Villa Escapes</small>
+</div>
+</div>
+<div class="cve-brand">
+<span>Curated by</span>
+<img alt="Caribbean Villa Escapes Logo" class="cve-logo" src="https://www.caribbeanvillaescapes.com/i/width=200,dpr=2,format=avif?src=https%3A%2F%2Fassets-websites.wander.com%2F652555082201563825%2Flogo-zZi6Iq9n9Aq1MdHLA05Tf.png"/>
+</div>
+</div>
 </section>
-
 <header class="hero">
-  <video class="hero-video" autoplay muted loop playsinline poster="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2200&q=90">
-    <source src="https://wander-upload-assets.wander.com/652555082201563825/files/ea5348ca-6b36-4c34-a523-a6ef3404e7ee.mp4" type="video/mp4">
-  </video>
-  <div class="hero-inner">
-    <p class="kicker">A Villa Collection for the ICHS Alumnae Getaway</p>
-    <h1>Gather beautifully by the sea.</h1>
-    <p>The Caribbean Villa Escapes team is proud to present a curated guide to a handpicked selection of private villas along Jamaica’s north coast, thoughtfully chosen to help the group explore the settings, layouts, and villa pairings best suited for your March 2027 escape. From the communities surrounding Ocho Rios to beloved coastal destinations farther west in Montego Bay, each option has been carefully organized so that comparing locations, rooming arrangements, amenities, and group fit feels effortless and seamless.</p>
-    <div class="hero-actions"><a class="btn primary" href="#cost-guide">View Villa Options</a><a class="btn" href="#villa-collection">Explore Villas</a></div>
-  </div>
+<video autoplay="" class="hero-video" loop="" muted="" playsinline="" poster="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&amp;fit=crop&amp;w=2200&amp;q=90">
+<source src="https://wander-upload-assets.wander.com/652555082201563825/files/ea5348ca-6b36-4c34-a523-a6ef3404e7ee.mp4" type="video/mp4"/>
+</video>
+<div class="hero-inner">
+<p class="kicker">A Villa Collection for the ICHS Alumnae Getaway</p>
+<h1>Gather beautifully by the sea.</h1>
+<p>The Caribbean Villa Escapes team is proud to present a curated guide to a handpicked selection of private villas along Jamaica’s north coast, thoughtfully chosen to help the group explore the settings, layouts, and villa pairings best suited for your March 2027 escape. From the communities surrounding Ocho Rios to beloved coastal destinations farther west in Montego Bay, each option has been carefully organized so that comparing locations, rooming arrangements, amenities, and group fit feels effortless and seamless.</p>
+<div class="hero-actions"><a class="btn primary" href="#cost-guide">View Villa Options</a><a class="btn" href="#villa-collection">Explore Villas</a></div>
+</div>
 </header>
-
 <nav class="nav">
-  <a href="#cost-guide">Villa Options</a>
-  <a href="#club-access">Club Access</a>
-  <a href="#north-coast">Ocho Rios</a>
-  <a href="#montego-bay">Montego Bay</a>
+<a href="#cost-guide">Villa Options</a>
+<a href="#club-access">Club Access</a>
+<a href="#north-coast">Ocho Rios</a>
+<a href="#montego-bay">Montego Bay</a>
 </nav>
-
 <main>
 <section>
-  <div class="section-title"><span>Designed for Group Ease</span><h2>A simple way to compare each stay.</h2></div>
-  <div class="intro-grid">
-    <div>
-      <p>This page brings the group’s villa options into one place, making it easier to compare each stay by layout, bedroom count, double-occupancy capacity, amenities, staffing, access, and estimated cost details. Each option has been organized to help the group understand what is included and how each villa or villa pairing may support the overall experience.</p>
-      <p>Whether the group prefers a single villa setting or a multi-villa arrangement, the collection offers a range of options designed for comfort, connection, and ease. The goal is to make the selection process feel clear, thoughtful, and seamless, while giving the group a strong sense of how each stay could come together.</p>
-    </div>
-    <div class="note"><p><strong>Planning basis:</strong> All pricing is estimated and subject to change until a formal quote or invoice is issued, based on the guest count listed for each option, a 4-night villa stay, and a 5-day sample food and beverage estimate. Villa stays are non-refundable once confirmed. A 25% deposit is required to secure your reservation, with the remaining balance due 60 days prior to arrival.</p></div>
-  </div>
-  <div class="stat-row"><div><b>4</b><span>Nights in villa</span></div><div><b>5</b><span>Days used for sample food and beverage planning</span></div><div><b>$55</b><span>Sample food and beverage per person, per day</span></div><div><b>2</b><span>Guests per bedroom for double occupancy planning</span></div></div>
+<div class="section-title"><span>Designed for Group Ease</span><h2>A simple way to compare each stay.</h2></div>
+<div class="intro-grid">
+<div>
+<p>This page brings the group’s villa options into one place, making it easier to compare each stay by layout, bedroom count, double-occupancy capacity, amenities, staffing, access, and estimated cost details. Each option has been organized to help the group understand what is included and how each villa or villa pairing may support the overall experience.</p>
+<p>Whether the group prefers a single villa setting or a multi-villa arrangement, the collection offers a range of options designed for comfort, connection, and ease. The goal is to make the selection process feel clear, thoughtful, and seamless, while giving the group a strong sense of how each stay could come together.</p>
+</div>
+<div class="note"><p><strong>Planning basis:</strong> All pricing is estimated and subject to change until a formal quote or invoice is issued, based on the guest count listed for each option, a 4-night villa stay, and a 5-day sample food and beverage estimate. Villa stays are non-refundable once confirmed. A 25% deposit is required to secure your reservation, with the remaining balance due 60 days prior to arrival.</p></div>
+</div>
+<div class="stat-row"><div><b>4</b><span>Nights in villa</span></div><div><b>5</b><span>Days used for sample food and beverage planning</span></div><div><b>$55</b><span>Sample food and beverage per person, per day</span></div><div><b>2</b><span>Guests per bedroom for double occupancy planning</span></div></div>
 </section>
-
 <section id="club-access">
-  <div class="section-title"><span>Club & Beach Access</span><h2>Beach days, resort-style touches, and easy island moments.</h2></div>
-  <div class="access-grid">
-    <div class="access-card"><h3>The Tryall Club</h3><p>Guests of Windsong and Bambu enjoy access to The Tryall Club, a private club with complimentary amenities such as the beach, non-motorized watersports, tennis courts, fitness center, jogging trails, Hummingbird Kids Club, Great House afternoon tea, the Manager’s Cocktail Party, select special events, the Tryall pool, and the Usain Bolt Games Room.</p><p style="margin-top:14px;">Golf, spa services, dining, bar purchases, motorized watersports, tennis shop purchases, ball boys, and certain club events or activities are available at an additional cost and subject to availability. Temporary membership dues are paid directly to Tryall and are currently US$45 per day for guests aged 16 and over, US$25 per day for guests aged 13–16, and complimentary for children aged 12 and under.</p></div>
-    <div class="access-card"><h3>Half Moon Beach Club</h3><p>Spring Farm villas include access to Half Moon Beach Club, with complimentary resort membership benefits such as Eclipse Beach, jacuzzi, tennis courts, fitness center, croquet, and miniature putting green. Spa, horseback riding, watersports, and tennis services may be booked on the day of service and are subject to availability and fees. No food or beverages are allowed on the Half Moon property, towel service is not included, and admittance is limited to 10 guests per villa.</p></div>
-  </div>
+<div class="section-title"><span>Club &amp; Beach Access</span><h2>Beach days, resort-style touches, and easy island moments.</h2></div>
+<div class="access-grid">
+<div class="access-card"><h3>The Tryall Club</h3><p>Guests of Windsong and Bambu enjoy access to The Tryall Club, a private club with complimentary amenities such as the beach, non-motorized watersports, tennis courts, fitness center, jogging trails, Hummingbird Kids Club, Great House afternoon tea, the Manager’s Cocktail Party, select special events, the Tryall pool, and the Usain Bolt Games Room.</p><p style="margin-top:14px;">Golf, spa services, dining, bar purchases, motorized watersports, tennis shop purchases, ball boys, and certain club events or activities are available at an additional cost and subject to availability. Temporary membership dues are paid directly to Tryall and are currently US$45 per day for guests aged 16 and over, US$25 per day for guests aged 13–16, and complimentary for children aged 12 and under.</p></div>
+<div class="access-card"><h3>Half Moon Beach Club</h3><p>Spring Farm villas include access to Half Moon Beach Club, with complimentary resort membership benefits such as Eclipse Beach, jacuzzi, tennis courts, fitness center, croquet, and miniature putting green. Spa, horseback riding, watersports, and tennis services may be booked on the day of service and are subject to availability and fees. No food or beverages are allowed on the Half Moon property, towel service is not included, and admittance is limited to 10 guests per villa.</p></div>
+</div>
 </section>
-
-<section id="cost-guide" class="cost-card">
-  <div class="cost-head"><h2>Villa options guide</h2><p>Estimated totals include the booking total with fees and taxes, staff gratuity, and a sample food and beverage budget. These figures are planning estimates and may change based on final menus, guest preferences, and confirmed villa availability.</p></div>
-  <div class="table-wrap">
-    <table>
-      <thead><tr><th>Destination</th><th>Area</th><th>Guest Count</th><th>Option</th><th>Villa/Villas</th><th>Bedrooms</th><th>Sleeps</th><th>Beach / Club Access</th><th>Booking Total with Fees & Taxes</th><th>Estimated Staff Gratuity</th><th>Sample F&B Budget</th><th>Estimated Total</th><th>Estimated Per Person</th></tr></thead>
-      <tbody>
+<section class="cost-card" id="cost-guide">
+<div class="cost-head"><h2>Villa options guide</h2><p>Estimated totals are presented in a simplified table so the group can compare each villa or villa pairing without side-to-side scrolling. Access notes are included in the villa details below. These figures are planning estimates and may change based on final menus, guest preferences, and confirmed villa availability.</p></div>
+<div class="table-wrap no-scroll-table">
+<table class="clean-options-table">
+<thead>
 <tr>
-  <td><span class="badge dest">Ocho Rios</span></td>
-  <td>Ocho Rios / Tower Isle</td>
-  <td><span class="badge">15 Guests</span></td>
-  <td class="code">A1</td>
-  <td><strong>Reefside</strong><em>One-villa coastal option</em></td>
-  <td>8</td>
-  <td>16</td>
-  <td>Beachfront</td>
-  <td>$11,641.80</td>
-  <td>$1,044.80</td>
-  <td>$4,125.00</td>
-  <td><strong>$16,811.60</strong></td>
-  <td><strong>$1,120.77</strong></td>
+<th>Location</th>
+<th>Group Fit</th>
+<th>Option</th>
+<th>Villa/Villas</th>
+<th>Estimate Breakdown</th>
+<th>Total Guide</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="badge dest">Ocho Rios</span><span class="table-sub">Ocho Rios / Tower Isle</span></td>
+<td><span class="badge">15 Guests</span><span class="table-sub">8 bedrooms · Sleeps 16</span></td>
+<td class="code">A1</td>
+<td><strong>Reefside</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $11,641.80</span>
+<span><b>Gratuity:</b> $1,044.80</span>
+<span><b>F&amp;B:</b> $4,125.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $16,811.60</span>
+<span><b>Per Person:</b> $1,120.77</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Ocho Rios</span></td>
-  <td>Ocho Rios</td>
-  <td><span class="badge">15 Guests</span></td>
-  <td class="code">A2</td>
-  <td><strong>Villa Paradiso</strong><em>Private beachfront estate option</em></td>
-  <td>8</td>
-  <td>16</td>
-  <td>Beachfront</td>
-  <td>$15,716.20</td>
-  <td>$1,415.20</td>
-  <td>$4,125.00</td>
-  <td><strong>$21,256.40</strong></td>
-  <td><strong>$1,417.09</strong></td>
+<td><span class="badge dest">Ocho Rios</span><span class="table-sub">Ocho Rios</span></td>
+<td><span class="badge">15 Guests</span><span class="table-sub">8 bedrooms · Sleeps 16</span></td>
+<td class="code">A2</td>
+<td><strong>Villa Paradiso</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $15,716.20</span>
+<span><b>Gratuity:</b> $1,415.20</span>
+<span><b>F&amp;B:</b> $4,125.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $21,256.40</span>
+<span><b>Per Person:</b> $1,417.09</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Ocho Rios</span></td>
-  <td>Runaway Bay</td>
-  <td><span class="badge">15 Guests</span></td>
-  <td class="code">A3</td>
-  <td><strong>Sweet Spot + Turrasann</strong><em>Runaway Bay beachfront pairing</em></td>
-  <td>9</td>
-  <td>18</td>
-  <td>Beachfront</td>
-  <td>$23,173.60</td>
-  <td>$3,119.40</td>
-  <td>$4,125.00</td>
-  <td><strong>$30,418.00</strong></td>
-  <td><strong>$2,027.87</strong></td>
+<td><span class="badge dest">Ocho Rios</span><span class="table-sub">Runaway Bay</span></td>
+<td><span class="badge">15 Guests</span><span class="table-sub">9 bedrooms · Sleeps 18</span></td>
+<td class="code">A3</td>
+<td><strong>Sweet Spot + Turrasann</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $23,173.60</span>
+<span><b>Gratuity:</b> $3,119.40</span>
+<span><b>F&amp;B:</b> $4,125.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $30,418.00</span>
+<span><b>Per Person:</b> $2,027.87</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Ocho Rios</span></td>
-  <td>Runaway Bay</td>
-  <td><span class="badge">15 Guests</span></td>
-  <td class="code">A4</td>
-  <td><strong>Sunspot + Turrasann</strong><em>Runaway Bay beachfront pairing</em></td>
-  <td>9</td>
-  <td>18</td>
-  <td>Beachfront</td>
-  <td>$19,732.80</td>
-  <td>$2,650.20</td>
-  <td>$4,125.00</td>
-  <td><strong>$26,508.00</strong></td>
-  <td><strong>$1,767.20</strong></td>
+<td><span class="badge dest">Ocho Rios</span><span class="table-sub">Runaway Bay</span></td>
+<td><span class="badge">15 Guests</span><span class="table-sub">9 bedrooms · Sleeps 18</span></td>
+<td class="code">A4</td>
+<td><strong>Sunspot + Turrasann</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $19,732.80</span>
+<span><b>Gratuity:</b> $2,650.20</span>
+<span><b>F&amp;B:</b> $4,125.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $26,508.00</span>
+<span><b>Per Person:</b> $1,767.20</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Ocho Rios</span></td>
-  <td>Discovery Bay</td>
-  <td><span class="badge">15 Guests</span></td>
-  <td class="code">A5</td>
-  <td><strong>Fantasy + Beachnut</strong><em>Side-by-side beach villas</em></td>
-  <td>11</td>
-  <td>22</td>
-  <td>Beachfront</td>
-  <td>$16,234.80</td>
-  <td>$1,448.80</td>
-  <td>$4,125.00</td>
-  <td><strong>$21,808.60</strong></td>
-  <td><strong>$1,453.91</strong></td>
+<td><span class="badge dest">Ocho Rios</span><span class="table-sub">Discovery Bay</span></td>
+<td><span class="badge">15 Guests</span><span class="table-sub">11 bedrooms · Sleeps 22</span></td>
+<td class="code">A5</td>
+<td><strong>Fantasy + Beachnut</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $16,234.80</span>
+<span><b>Gratuity:</b> $1,448.80</span>
+<span><b>F&amp;B:</b> $4,125.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $21,808.60</span>
+<span><b>Per Person:</b> $1,453.91</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Ocho Rios</span></td>
-  <td>Runaway Bay</td>
-  <td><span class="badge">20 Guests</span></td>
-  <td class="code">B1</td>
-  <td><strong>Sweet Spot + Sunspot</strong><em>Two-villa Runaway Bay cluster</em></td>
-  <td>12</td>
-  <td>24</td>
-  <td>Beachfront</td>
-  <td>$29,170.80</td>
-  <td>$3,937.20</td>
-  <td>$5,500.00</td>
-  <td><strong>$38,608.00</strong></td>
-  <td><strong>$1,930.40</strong></td>
+<td><span class="badge dest">Ocho Rios</span><span class="table-sub">Runaway Bay</span></td>
+<td><span class="badge">20 Guests</span><span class="table-sub">12 bedrooms · Sleeps 24</span></td>
+<td class="code">B1</td>
+<td><strong>Sweet Spot + Sunspot</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $29,170.80</span>
+<span><b>Gratuity:</b> $3,937.20</span>
+<span><b>F&amp;B:</b> $5,500.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $38,608.00</span>
+<span><b>Per Person:</b> $1,930.40</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Ocho Rios</span></td>
-  <td>Discovery Bay</td>
-  <td><span class="badge">20 Guests</span></td>
-  <td class="code">B2</td>
-  <td><strong>Fantasy + Beachnut</strong><em>Side-by-side beach villas</em></td>
-  <td>11</td>
-  <td>22</td>
-  <td>Beachfront</td>
-  <td>$16,234.80</td>
-  <td>$1,448.80</td>
-  <td>$5,500.00</td>
-  <td><strong>$23,183.60</strong></td>
-  <td><strong>$1,159.18</strong></td>
+<td><span class="badge dest">Ocho Rios</span><span class="table-sub">Discovery Bay</span></td>
+<td><span class="badge">20 Guests</span><span class="table-sub">11 bedrooms · Sleeps 22</span></td>
+<td class="code">B2</td>
+<td><strong>Fantasy + Beachnut</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $16,234.80</span>
+<span><b>Gratuity:</b> $1,448.80</span>
+<span><b>F&amp;B:</b> $5,500.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $23,183.60</span>
+<span><b>Per Person:</b> $1,159.18</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Ocho Rios</span></td>
-  <td>Runaway Bay</td>
-  <td><span class="badge">20 Guests</span></td>
-  <td class="code">B3</td>
-  <td><strong>Sweet Spot + Sunspot + Turrasann</strong><em>Spacious Runaway Bay cluster</em></td>
-  <td>15</td>
-  <td>30</td>
-  <td>Beachfront</td>
-  <td>$36,038.60</td>
-  <td>$4,853.40</td>
-  <td>$5,500.00</td>
-  <td><strong>$46,392.00</strong></td>
-  <td><strong>$2,319.60</strong></td>
+<td><span class="badge dest">Ocho Rios</span><span class="table-sub">Runaway Bay</span></td>
+<td><span class="badge">20 Guests</span><span class="table-sub">15 bedrooms · Sleeps 30</span></td>
+<td class="code">B3</td>
+<td><strong>Sweet Spot + Sunspot + Turrasann</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $36,038.60</span>
+<span><b>Gratuity:</b> $4,853.40</span>
+<span><b>F&amp;B:</b> $5,500.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $46,392.00</span>
+<span><b>Per Person:</b> $2,319.60</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Ocho Rios</span></td>
-  <td>Runaway Bay</td>
-  <td><span class="badge">30 Guests</span></td>
-  <td class="code">C1</td>
-  <td><strong>Sweet Spot + Sunspot + Turrasann</strong><em>Best 30-person North Coast option</em></td>
-  <td>15</td>
-  <td>30</td>
-  <td>Beachfront</td>
-  <td>$36,038.60</td>
-  <td>$4,853.40</td>
-  <td>$8,250.00</td>
-  <td><strong>$49,142.00</strong></td>
-  <td><strong>$1,638.07</strong></td>
+<td><span class="badge dest">Ocho Rios</span><span class="table-sub">Runaway Bay</span></td>
+<td><span class="badge">30 Guests</span><span class="table-sub">15 bedrooms · Sleeps 30</span></td>
+<td class="code">C1</td>
+<td><strong>Sweet Spot + Sunspot + Turrasann</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $36,038.60</span>
+<span><b>Gratuity:</b> $4,853.40</span>
+<span><b>F&amp;B:</b> $8,250.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $49,142.00</span>
+<span><b>Per Person:</b> $1,638.07</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Montego Bay</span></td>
-  <td>Hopewell</td>
-  <td><span class="badge">Up to 20</span></td>
-  <td class="code">MB1</td>
-  <td><strong>Windsong + Bambu</strong><em>Hopewell paired option with Tryall Club access</em></td>
-  <td>11</td>
-  <td>20</td>
-  <td>Tryall Club access, fees apply</td>
-  <td>$20,366.40</td>
-  <td>$1,824.40</td>
-  <td>$5,500.00</td>
-  <td><strong>$27,690.80</strong></td>
-  <td><strong>$1,384.54</strong></td>
+<td><span class="badge dest">Montego Bay</span><span class="table-sub">Hopewell</span></td>
+<td><span class="badge">Up to 20</span><span class="table-sub">11 bedrooms · Sleeps 20</span></td>
+<td class="code">MB1</td>
+<td><strong>Windsong + Bambu</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $20,366.40</span>
+<span><b>Gratuity:</b> $1,824.40</span>
+<span><b>F&amp;B:</b> $5,500.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $27,690.80</span>
+<span><b>Per Person:</b> $1,384.54</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Montego Bay</span></td>
-  <td>Freeport</td>
-  <td><span class="badge">Up to 20</span></td>
-  <td class="code">MB2</td>
-  <td><strong>Everything Nice + ELSEWHERE</strong><em>Beachfront Freeport pairing</em></td>
-  <td>10</td>
-  <td>22</td>
-  <td>Beachfront</td>
-  <td>$17,678.00</td>
-  <td>$1,580.00</td>
-  <td>$5,500.00</td>
-  <td><strong>$24,758.00</strong></td>
-  <td><strong>$1,237.90</strong></td>
+<td><span class="badge dest">Montego Bay</span><span class="table-sub">Freeport</span></td>
+<td><span class="badge">Up to 20</span><span class="table-sub">10 bedrooms · Sleeps 22</span></td>
+<td class="code">MB2</td>
+<td><strong>Everything Nice + ELSEWHERE</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $17,678.00</span>
+<span><b>Gratuity:</b> $1,580.00</span>
+<span><b>F&amp;B:</b> $5,500.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $24,758.00</span>
+<span><b>Per Person:</b> $1,237.90</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Montego Bay</span></td>
-  <td>Spring Farm</td>
-  <td><span class="badge">Up to 15</span></td>
-  <td class="code">MB3</td>
-  <td><strong>BougainVilla + Abacus</strong><em>Recommended Spring Farm pairing for 15 guests</em></td>
-  <td>9</td>
-  <td>18</td>
-  <td>Half Moon Beach Club access</td>
-  <td>$21,418.00</td>
-  <td>$1,920.00</td>
-  <td>$4,125.00</td>
-  <td><strong>$27,463.00</strong></td>
-  <td><strong>$1,830.87</strong></td>
+<td><span class="badge dest">Montego Bay</span><span class="table-sub">Spring Farm</span></td>
+<td><span class="badge">Up to 15</span><span class="table-sub">9 bedrooms · Sleeps 18</span></td>
+<td class="code">MB3</td>
+<td><strong>BougainVilla + Abacus</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $21,418.00</span>
+<span><b>Gratuity:</b> $1,920.00</span>
+<span><b>F&amp;B:</b> $4,125.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $27,463.00</span>
+<span><b>Per Person:</b> $1,830.87</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Montego Bay</span></td>
-  <td>Spring Farm</td>
-  <td><span class="badge">Up to 14</span></td>
-  <td class="code">MB4</td>
-  <td><strong>Endless Summer</strong><em>Standalone Spring Farm option</em></td>
-  <td>7</td>
-  <td>14</td>
-  <td>Half Moon Beach Club access</td>
-  <td>$12,389.80</td>
-  <td>$1,112.80</td>
-  <td>$3,850.00</td>
-  <td><strong>$17,352.60</strong></td>
-  <td><strong>$1,239.47</strong></td>
+<td><span class="badge dest">Montego Bay</span><span class="table-sub">Spring Farm</span></td>
+<td><span class="badge">Up to 14</span><span class="table-sub">7 bedrooms · Sleeps 14</span></td>
+<td class="code">MB4</td>
+<td><strong>Endless Summer</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $12,389.80</span>
+<span><b>Gratuity:</b> $1,112.80</span>
+<span><b>F&amp;B:</b> $3,850.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $17,352.60</span>
+<span><b>Per Person:</b> $1,239.47</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Montego Bay</span></td>
-  <td>Spring Farm</td>
-  <td><span class="badge">Up to 20</span></td>
-  <td class="code">MB5</td>
-  <td><strong>Flower Hill + Villa Rosa</strong><em>Recommended Spring Farm pairing for 20 guests</em></td>
-  <td>11</td>
-  <td>26</td>
-  <td>Half Moon Beach Club access</td>
-  <td>$29,558.00</td>
-  <td>$2,660.00</td>
-  <td>$5,500.00</td>
-  <td><strong>$37,718.00</strong></td>
-  <td><strong>$1,885.90</strong></td>
+<td><span class="badge dest">Montego Bay</span><span class="table-sub">Spring Farm</span></td>
+<td><span class="badge">Up to 20</span><span class="table-sub">11 bedrooms · Sleeps 26</span></td>
+<td class="code">MB5</td>
+<td><strong>Flower Hill + Villa Rosa</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $29,558.00</span>
+<span><b>Gratuity:</b> $2,660.00</span>
+<span><b>F&amp;B:</b> $5,500.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $37,718.00</span>
+<span><b>Per Person:</b> $1,885.90</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Montego Bay</span></td>
-  <td>Spring Farm</td>
-  <td><span class="badge">Up to 25</span></td>
-  <td class="code">MB6</td>
-  <td><strong>BougainVilla + Abacus + Villa Rosa</strong><em>Spring Farm cluster for larger groups</em></td>
-  <td>14</td>
-  <td>28</td>
-  <td>Half Moon Beach Club access</td>
-  <td>$33,007.00</td>
-  <td>$2,960.00</td>
-  <td>$6,875.00</td>
-  <td><strong>$42,842.00</strong></td>
-  <td><strong>$1,713.68</strong></td>
+<td><span class="badge dest">Montego Bay</span><span class="table-sub">Spring Farm</span></td>
+<td><span class="badge">Up to 25</span><span class="table-sub">14 bedrooms · Sleeps 28</span></td>
+<td class="code">MB6</td>
+<td><strong>BougainVilla + Abacus + Villa Rosa</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $33,007.00</span>
+<span><b>Gratuity:</b> $2,960.00</span>
+<span><b>F&amp;B:</b> $6,875.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $42,842.00</span>
+<span><b>Per Person:</b> $1,713.68</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Montego Bay</span></td>
-  <td>Spring Farm</td>
-  <td><span class="badge">Up to 30</span></td>
-  <td class="code">MB7</td>
-  <td><strong>Flower Hill + Villa Rosa + BougainVilla</strong><em>Recommended Spring Farm cluster for 30 guests</em></td>
-  <td>17</td>
-  <td>38</td>
-  <td>Half Moon Beach Club access</td>
-  <td>$42,027.00</td>
-  <td>$3,780.00</td>
-  <td>$8,250.00</td>
-  <td><strong>$54,057.00</strong></td>
-  <td><strong>$1,801.90</strong></td>
+<td><span class="badge dest">Montego Bay</span><span class="table-sub">Spring Farm</span></td>
+<td><span class="badge">Up to 30</span><span class="table-sub">17 bedrooms · Sleeps 38</span></td>
+<td class="code">MB7</td>
+<td><strong>Flower Hill + Villa Rosa + BougainVilla</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $42,027.00</span>
+<span><b>Gratuity:</b> $3,780.00</span>
+<span><b>F&amp;B:</b> $8,250.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $54,057.00</span>
+<span><b>Per Person:</b> $1,801.90</span>
+</td>
 </tr>
 <tr>
-  <td><span class="badge dest">Montego Bay</span></td>
-  <td>Spring Farm</td>
-  <td><span class="badge">Up to 38</span></td>
-  <td class="code">MB8</td>
-  <td><strong>BougainVilla + Abacus + Villa Rosa + Flower Hill</strong><em>Largest Spring Farm cluster</em></td>
-  <td>20</td>
-  <td>44</td>
-  <td>Half Moon Beach Club access</td>
-  <td>$50,976.00</td>
-  <td>$4,580.00</td>
-  <td>$10,450.00</td>
-  <td><strong>$66,006.00</strong></td>
-  <td><strong>$1,737.00</strong></td>
+<td><span class="badge dest">Montego Bay</span><span class="table-sub">Spring Farm</span></td>
+<td><span class="badge">Up to 38</span><span class="table-sub">20 bedrooms · Sleeps 44</span></td>
+<td class="code">MB8</td>
+<td><strong>BougainVilla + Abacus + Villa Rosa + Flower Hill</strong></td>
+<td class="price-cell">
+<span><b>Booking:</b> $50,976.00</span>
+<span><b>Gratuity:</b> $4,580.00</span>
+<span><b>F&amp;B:</b> $10,450.00</span>
+</td>
+<td class="price-cell highlight-price">
+<span><b>Total:</b> $66,006.00</span>
+<span><b>Per Person:</b> $1,737.00</span>
+</td>
 </tr>
 </tbody>
-    </table>
-  </div>
+</table>
+</div>
 </section>
-
 <div id="villa-collection"></div>
-
 <section id="north-coast">
-  <div class="section-title"><span>Location</span><h2>Ocho Rios Villa Options</h2></div>
-  <p class="villa-summary">These villas include the original north coast options shared for the group, with one-villa and multi-villa pairings across Ocho Rios, Runaway Bay, and Discovery Bay.</p>
+<div class="section-title"><span>Location</span><h2>Ocho Rios Villa Options</h2></div>
+<p class="villa-summary">These villas include the original north coast options shared for the group, with one-villa and multi-villa pairings across Ocho Rios, Runaway Bay, and Discovery Bay.</p>
 </section>
 <section class="region">
-
-  <article class="villa" id="reefside">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Reefside Villa</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52ccb30c8c3b8449a3b413e5b611d49ba7?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Tower Isle, St. Mary</p>
-      <h3>Reefside Villa</h3>
-      <p class="villa-summary">A modern eight-bedroom seaside villa nestled just outside Ocho Rios in the peaceful Tower Isle area, offering breathtaking views of the Caribbean Sea and the soothing rhythm of the shoreline. Designed for relaxed coastal living, the villa features spacious interiors, airy balconies, beautifully appointed bedrooms, a freshwater pool, jacuzzi, gazebo, and a private sea pool set against turquoise waters.</p>
-      <div class="villa-stats">
-        <div><b>8</b><span>Bedrooms</span></div>
-        <div><b>8.5</b><span>Bathrooms</span></div>
-        <div><b>16</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Magnificent private sea pool</li><li>Freshwater swimming pool and jacuzzi</li><li>Panoramic Caribbean Sea views</li><li>Cabana and gazebo for sunset views</li><li>Two ocean kayaks and life vests</li><li>Exercise equipment</li><li>TVs in all rooms with streaming and cable options</li><li>21-passenger coach and driver available at additional cost</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Cook</li><li>Butler</li><li>Housekeeper</li><li>Gardener</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$2,612.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$10,448.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$1,193.80</strong></div>
-        <div><span>Total with Fees</span><strong>$11,641.80</strong></div>
-        <div><span>Gratuity</span><strong>$1,044.80</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="villa-paradiso">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Villa Paradiso</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52a53b3071c8b04441b77b819c4e5f6ec4?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Mammee Bay Estate, Ocho Rios</p>
-      <h3>Villa Paradiso</h3>
-      <p class="villa-summary">A classic beachfront estate experience with private beach frontage, open-air ease, and thoughtful support for group movement.</p>
-      <div class="villa-stats">
-        <div><b>8</b><span>Bedrooms</span></div>
-        <div><b>TBC</b><span>Bathrooms</span></div>
-        <div><b>16</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Freshwater swimming pool</li><li>Whirlpool</li><li>150 feet of private white sand beach</li><li>Gated community</li><li>21-passenger coach with driver included</li><li>Wi-Fi and cable TV</li><li>Barbecue area</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Fully staffed villa</li><li>Laundress service</li><li>Security guard from 6 PM to 6 AM</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$3,538.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$14,152.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$1,564.20</strong></div>
-        <div><span>Total with Fees</span><strong>$15,716.20</strong></div>
-        <div><span>Gratuity</span><strong>$1,415.20</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="sweet-spot">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Sweet Spot on the Beach</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52a53b3071c8b04441b77b819c4e5f6ec4?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Runaway Bay</p>
-      <h3>Sweet Spot on the Beach</h3>
-      <p class="villa-summary">A beautiful six-bedroom beachfront villa set directly on the soft sands of Runaway Bay, offering an elegant private-home feel with relaxed coastal charm. Designed for easy days by the sea, the villa features open living and dining spaces, ensuite bedrooms, a private pool and jacuzzi, lush lawns, kayaks, snorkeling equipment, and direct access to clear Caribbean waters just steps away.</p>
-      <div class="villa-stats">
-        <div><b>6</b><span>Bedrooms</span></div>
-        <div><b>6.5</b><span>Bathrooms</span></div>
-        <div><b>12</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Beachfront setting with excellent reef nearby</li><li>Private pool, pool floats, jacuzzi, and hot tub</li><li>Private air-conditioned gym</li><li>Sea kayaks, snorkeling gear, and paddle boards</li><li>Beach chairs, beach towels, and beach volleyball</li><li>Gazebo and hammock</li><li>Outdoor bar, grill, and outdoor speakers</li><li>Media room, games library, table tennis, and pool table</li><li>Alfresco dining area</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Butler</li><li>Cook</li><li>Housekeepers / laundress</li><li>Gardener</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$3,672.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$14,688.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$1,617.80</strong></div>
-        <div><span>Total with Fees</span><strong>$16,305.80</strong></div>
-        <div><span>Gratuity</span><strong>$2,203.20</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="villa-turrasann">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Villa Turrasann</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav5295a06e4fa2ec4428b959ae17be07bfc0?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Runaway Bay, St. Ann</p>
-      <h3>Villa Turrasann</h3>
-      <p class="villa-summary">A charming three-bedroom beachfront villa in Runaway Bay, set along Jamaica’s beautiful North Coast with direct beach access, a private pool, and relaxed indoor-outdoor living. Designed for intimate gatherings and easy seaside days, the villa features spacious ensuite bedrooms, airy living areas, a covered veranda, and inviting garden spaces that open toward the Caribbean Sea.</p>
-      <div class="villa-stats">
-        <div><b>3</b><span>Bedrooms</span></div>
-        <div><b>3.5</b><span>Bathrooms</span></div>
-        <div><b>6</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Beach access and clear water</li><li>Private pool</li><li>Gazebo</li><li>Alfresco dining area</li><li>Outdoor shower</li><li>Patio and terrace</li><li>Sound system and surround sound</li><li>Mountain and ocean views</li><li>Secured parking and security system</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Chef</li><li>Housekeeper</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$1,527.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$6,108.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$759.80</strong></div>
-        <div><span>Total with Fees</span><strong>$6,867.80</strong></div>
-        <div><span>Gratuity</span><strong>$916.20</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="sunspot">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Sunspot Villa</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav5206fd1a75c3d34527b91beb57d5c461df?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Runaway Bay</p>
-      <h3>Sunspot Villa</h3>
-      <p class="villa-summary">A welcoming six-bedroom beachfront villa in Runaway Bay, designed for relaxed seaside living with generous spaces for gathering, dining, and enjoying the beauty of Jamaica’s North Coast. The villa features airy interiors with high-beamed ceilings, comfortable ensuite bedrooms, a private pool, ocean-view gazebo, and inviting outdoor areas that open toward the beach.</p>
-      <div class="villa-stats">
-        <div><b>6</b><span>Bedrooms</span></div>
-        <div><b>7</b><span>Bathrooms</span></div>
-        <div><b>12</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Beach access with clear water</li><li>Private pool</li><li>Ocean-view gazebo</li><li>Games room and board games</li><li>Smart TV and sound system</li><li>Outdoor shower</li><li>On-site parking</li><li>Generator</li><li>Security system</li><li>Wheelchair accessible</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Resident Villa Coordinator</li><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Land houseman</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$2,890.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$11,560.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$1,305.00</strong></div>
-        <div><span>Total with Fees</span><strong>$12,865.00</strong></div>
-        <div><span>Gratuity</span><strong>$1,734.00</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="villa-fantasy">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Villa Fantasy</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52e3633eda08a44f558877647e571cad28?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Bengal Beach, Discovery Bay</p>
-      <h3>Villa Fantasy</h3>
-      <p class="villa-summary">A relaxed seaside villa made for group connection, with a large veranda, sea views, and the ease of a full staffed stay. Fantasy pairs naturally with Beachnut for a side-by-side group setup.</p>
-      <div class="villa-stats">
-        <div><b>6</b><span>Bedrooms</span></div>
-        <div><b>TBC</b><span>Bathrooms</span></div>
-        <div><b>12</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Large freshwater pool</li><li>Pool deck and gazebo</li><li>Beach house setting</li><li>Sea views</li><li>Sea kayaks</li><li>Large veranda</li><li>Indoor and outdoor dining</li><li>Gas grill</li><li>Board games</li><li>Nighttime security</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Cook</li><li>Housekeepers</li><li>Gardener</li><li>Full staff</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$1,974.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$7,896.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$938.60</strong></div>
-        <div><span>Total with Fees</span><strong>$8,834.60</strong></div>
-        <div><span>Gratuity</span><strong>$789.60</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="beachnut">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Beachnut Villa</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav5233564eb5cfb24d709028a40e5abc30af?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Bengal Beach, Discovery Bay</p>
-      <h3>Beachnut Villa</h3>
-      <p class="villa-summary">A welcoming five-bedroom beachfront villa beside Fantasy, giving the group a side-by-side setup with sea views, casual elegance, and easy shared moments.</p>
-      <div class="villa-stats">
-        <div><b>5</b><span>Bedrooms</span></div>
-        <div><b>TBC</b><span>Bathrooms</span></div>
-        <div><b>10</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Pool</li><li>Beachfront on Bengal Bay</li><li>Sea views</li><li>Sea kayaks</li><li>Paddle board</li><li>Large veranda</li><li>Indoor and outdoor dining</li><li>Gas grill</li><li>Board games</li><li>Bedroom safes</li><li>Nighttime security</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Cook</li><li>Housekeeper</li><li>Gardener</li><li>Full staff</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$1,648.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$6,592.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$808.20</strong></div>
-        <div><span>Total with Fees</span><strong>$7,400.20</strong></div>
-        <div><span>Gratuity</span><strong>$659.20</strong></div>
-      </div>
-    </div>
-  </article>
+<article class="villa" id="reefside">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Reefside Villa</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52ccb30c8c3b8449a3b413e5b611d49ba7?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Tower Isle, St. Mary</p>
+<h3>Reefside Villa</h3>
+<p class="villa-summary">A modern eight-bedroom seaside villa nestled just outside Ocho Rios in the peaceful Tower Isle area, offering breathtaking views of the Caribbean Sea and the soothing rhythm of the shoreline. Designed for relaxed coastal living, the villa features spacious interiors, airy balconies, beautifully appointed bedrooms, a freshwater pool, jacuzzi, gazebo, and a private sea pool set against turquoise waters.</p>
+<div class="villa-stats">
+<div><b>8</b><span>Bedrooms</span></div>
+<div><b>8.5</b><span>Bathrooms</span></div>
+<div><b>16</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Magnificent private sea pool</li><li>Freshwater swimming pool and jacuzzi</li><li>Panoramic Caribbean Sea views</li><li>Cabana and gazebo for sunset views</li><li>Two ocean kayaks and life vests</li><li>Exercise equipment</li><li>TVs in all rooms with streaming and cable options</li><li>21-passenger coach and driver available at additional cost</li></ul></div>
+<div><h4>Staff</h4><ul><li>Cook</li><li>Butler</li><li>Housekeeper</li><li>Gardener</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$2,612.00</strong></div>
+<div><span>4-Night Rental</span><strong>$10,448.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$1,193.80</strong></div>
+<div><span>Total with Fees</span><strong>$11,641.80</strong></div>
+<div><span>Gratuity</span><strong>$1,044.80</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="villa-paradiso">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Villa Paradiso</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52a53b3071c8b04441b77b819c4e5f6ec4?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Mammee Bay Estate, Ocho Rios</p>
+<h3>Villa Paradiso</h3>
+<p class="villa-summary">A classic beachfront estate experience with private beach frontage, open-air ease, and thoughtful support for group movement.</p>
+<div class="villa-stats">
+<div><b>8</b><span>Bedrooms</span></div>
+<div><b>TBC</b><span>Bathrooms</span></div>
+<div><b>16</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Freshwater swimming pool</li><li>Whirlpool</li><li>150 feet of private white sand beach</li><li>Gated community</li><li>21-passenger coach with driver included</li><li>Wi-Fi and cable TV</li><li>Barbecue area</li></ul></div>
+<div><h4>Staff</h4><ul><li>Fully staffed villa</li><li>Laundress service</li><li>Security guard from 6 PM to 6 AM</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$3,538.00</strong></div>
+<div><span>4-Night Rental</span><strong>$14,152.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$1,564.20</strong></div>
+<div><span>Total with Fees</span><strong>$15,716.20</strong></div>
+<div><span>Gratuity</span><strong>$1,415.20</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="sweet-spot">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Sweet Spot on the Beach</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52a53b3071c8b04441b77b819c4e5f6ec4?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Runaway Bay</p>
+<h3>Sweet Spot on the Beach</h3>
+<p class="villa-summary">A beautiful six-bedroom beachfront villa set directly on the soft sands of Runaway Bay, offering an elegant private-home feel with relaxed coastal charm. Designed for easy days by the sea, the villa features open living and dining spaces, ensuite bedrooms, a private pool and jacuzzi, lush lawns, kayaks, snorkeling equipment, and direct access to clear Caribbean waters just steps away.</p>
+<div class="villa-stats">
+<div><b>6</b><span>Bedrooms</span></div>
+<div><b>6.5</b><span>Bathrooms</span></div>
+<div><b>12</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Beachfront setting with excellent reef nearby</li><li>Private pool, pool floats, jacuzzi, and hot tub</li><li>Private air-conditioned gym</li><li>Sea kayaks, snorkeling gear, and paddle boards</li><li>Beach chairs, beach towels, and beach volleyball</li><li>Gazebo and hammock</li><li>Outdoor bar, grill, and outdoor speakers</li><li>Media room, games library, table tennis, and pool table</li><li>Alfresco dining area</li></ul></div>
+<div><h4>Staff</h4><ul><li>Butler</li><li>Cook</li><li>Housekeepers / laundress</li><li>Gardener</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$3,672.00</strong></div>
+<div><span>4-Night Rental</span><strong>$14,688.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$1,617.80</strong></div>
+<div><span>Total with Fees</span><strong>$16,305.80</strong></div>
+<div><span>Gratuity</span><strong>$2,203.20</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="villa-turrasann">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Villa Turrasann</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav5295a06e4fa2ec4428b959ae17be07bfc0?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Runaway Bay, St. Ann</p>
+<h3>Villa Turrasann</h3>
+<p class="villa-summary">A charming three-bedroom beachfront villa in Runaway Bay, set along Jamaica’s beautiful North Coast with direct beach access, a private pool, and relaxed indoor-outdoor living. Designed for intimate gatherings and easy seaside days, the villa features spacious ensuite bedrooms, airy living areas, a covered veranda, and inviting garden spaces that open toward the Caribbean Sea.</p>
+<div class="villa-stats">
+<div><b>3</b><span>Bedrooms</span></div>
+<div><b>3.5</b><span>Bathrooms</span></div>
+<div><b>6</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Beach access and clear water</li><li>Private pool</li><li>Gazebo</li><li>Alfresco dining area</li><li>Outdoor shower</li><li>Patio and terrace</li><li>Sound system and surround sound</li><li>Mountain and ocean views</li><li>Secured parking and security system</li></ul></div>
+<div><h4>Staff</h4><ul><li>Chef</li><li>Housekeeper</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$1,527.00</strong></div>
+<div><span>4-Night Rental</span><strong>$6,108.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$759.80</strong></div>
+<div><span>Total with Fees</span><strong>$6,867.80</strong></div>
+<div><span>Gratuity</span><strong>$916.20</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="sunspot">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Sunspot Villa</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav5206fd1a75c3d34527b91beb57d5c461df?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Runaway Bay</p>
+<h3>Sunspot Villa</h3>
+<p class="villa-summary">A welcoming six-bedroom beachfront villa in Runaway Bay, designed for relaxed seaside living with generous spaces for gathering, dining, and enjoying the beauty of Jamaica’s North Coast. The villa features airy interiors with high-beamed ceilings, comfortable ensuite bedrooms, a private pool, ocean-view gazebo, and inviting outdoor areas that open toward the beach.</p>
+<div class="villa-stats">
+<div><b>6</b><span>Bedrooms</span></div>
+<div><b>7</b><span>Bathrooms</span></div>
+<div><b>12</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Beach access with clear water</li><li>Private pool</li><li>Ocean-view gazebo</li><li>Games room and board games</li><li>Smart TV and sound system</li><li>Outdoor shower</li><li>On-site parking</li><li>Generator</li><li>Security system</li><li>Wheelchair accessible</li></ul></div>
+<div><h4>Staff</h4><ul><li>Resident Villa Coordinator</li><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Land houseman</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$2,890.00</strong></div>
+<div><span>4-Night Rental</span><strong>$11,560.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$1,305.00</strong></div>
+<div><span>Total with Fees</span><strong>$12,865.00</strong></div>
+<div><span>Gratuity</span><strong>$1,734.00</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="villa-fantasy">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Villa Fantasy</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52e3633eda08a44f558877647e571cad28?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Bengal Beach, Discovery Bay</p>
+<h3>Villa Fantasy</h3>
+<p class="villa-summary">A relaxed seaside villa made for group connection, with a large veranda, sea views, and the ease of a full staffed stay. Fantasy pairs naturally with Beachnut for a side-by-side group setup.</p>
+<div class="villa-stats">
+<div><b>6</b><span>Bedrooms</span></div>
+<div><b>TBC</b><span>Bathrooms</span></div>
+<div><b>12</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Large freshwater pool</li><li>Pool deck and gazebo</li><li>Beach house setting</li><li>Sea views</li><li>Sea kayaks</li><li>Large veranda</li><li>Indoor and outdoor dining</li><li>Gas grill</li><li>Board games</li><li>Nighttime security</li></ul></div>
+<div><h4>Staff</h4><ul><li>Cook</li><li>Housekeepers</li><li>Gardener</li><li>Full staff</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$1,974.00</strong></div>
+<div><span>4-Night Rental</span><strong>$7,896.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$938.60</strong></div>
+<div><span>Total with Fees</span><strong>$8,834.60</strong></div>
+<div><span>Gratuity</span><strong>$789.60</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="beachnut">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Beachnut Villa</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav5233564eb5cfb24d709028a40e5abc30af?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Bengal Beach, Discovery Bay</p>
+<h3>Beachnut Villa</h3>
+<p class="villa-summary">A welcoming five-bedroom beachfront villa beside Fantasy, giving the group a side-by-side setup with sea views, casual elegance, and easy shared moments.</p>
+<div class="villa-stats">
+<div><b>5</b><span>Bedrooms</span></div>
+<div><b>TBC</b><span>Bathrooms</span></div>
+<div><b>10</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Pool</li><li>Beachfront on Bengal Bay</li><li>Sea views</li><li>Sea kayaks</li><li>Paddle board</li><li>Large veranda</li><li>Indoor and outdoor dining</li><li>Gas grill</li><li>Board games</li><li>Bedroom safes</li><li>Nighttime security</li></ul></div>
+<div><h4>Staff</h4><ul><li>Cook</li><li>Housekeeper</li><li>Gardener</li><li>Full staff</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$1,648.00</strong></div>
+<div><span>4-Night Rental</span><strong>$6,592.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$808.20</strong></div>
+<div><span>Total with Fees</span><strong>$7,400.20</strong></div>
+<div><span>Gratuity</span><strong>$659.20</strong></div>
+</div>
+</div>
+</article>
 </section>
-
 <section id="montego-bay">
-  <div class="section-title"><span>Location</span><h2>Montego Bay Villa Options</h2></div>
-  <p class="villa-summary">These villa options are grouped so the group can clearly see what each property includes, how the villas can be paired, and which amenities add the most value to the overall stay.</p>
+<div class="section-title"><span>Location</span><h2>Montego Bay Villa Options</h2></div>
+<p class="villa-summary">These villa options are grouped so the group can clearly see what each property includes, how the villas can be paired, and which amenities add the most value to the overall stay.</p>
 </section>
 <section class="region">
-
-  <article class="villa" id="windsong">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Windsong</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav5233564eb5cfb24d709028a40e5abc30af?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Hopewell, Montego Bay</p>
-      <h3>Windsong</h3>
-      <p class="villa-summary">An exquisite and private four-bedroom villa set on three acres in the low foothills overlooking Montego Bay’s western coastline, designed for relaxed island living with an open-air layout that welcomes Jamaica’s gentle trade winds and sweeping views from sunrise over Montego Bay to golden sunsets toward Negril and the hills of Hanover. With serene surroundings, elegant shared spaces, and thoughtful villa service, it offers a warm and comfortable setting for the group to unwind, reconnect, and enjoy Jamaica beyond just a stay.</p>
-      <div class="villa-stats">
-        <div><b>4</b><span>Bedrooms</span></div>
-        <div><b>4</b><span>Bathrooms</span></div>
-        <div><b>8</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Alfresco dining area</li><li>Media room</li><li>Outdoor bar and grill</li><li>Patio and terrace</li><li>Ocean and sea views</li><li>Entertainment features including cable TV, DVD, film library, and iPod dock</li><li>Secured parking</li><li>Wheelchair accessible</li><li>Access to The Tryall Club</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Gardeners</li><li>Laundress</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$1,903.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$7,612.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$910.20</strong></div>
-        <div><span>Total with Fees</span><strong>$8,522.20</strong></div>
-        <div><span>Gratuity</span><strong>$761.20</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="bambu">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Bambu</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav528f876bcd1a90494bb5e17559d8d613c7?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Hopewell, Montego Bay</p>
-      <h3>Bambu</h3>
-      <p class="villa-summary">An elegant, fully staffed hillside villa set high above Jamaica’s renowned North Coast, Bambu is perched on eight and a half acres with sweeping views of sea, sky, and lush tropical surroundings. The main villa features six well-appointed bedrooms, while a separate hillside cottage offers additional space, creating a relaxed setting for guests to spread out, gather, and enjoy easy island living.</p>
-      <div class="villa-stats">
-        <div><b>7</b><span>Bedrooms</span></div>
-        <div><b>7</b><span>Bathrooms</span></div>
-        <div><b>12</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Spectacular central round swimming pool</li><li>Children’s play area with playhouse and treehouse</li><li>Apple TV, satellite, sound system, and Xbox</li><li>Wireless internet access</li><li>Terrace with lounge area</li><li>Gazebo</li><li>Alfresco shower and tub</li><li>Wheelchair accessible</li><li>Access to The Tryall Club</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Gardeners</li><li>Laundress</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$2,658.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$10,632.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$1,212.20</strong></div>
-        <div><span>Total with Fees</span><strong>$11,844.20</strong></div>
-        <div><span>Gratuity</span><strong>$1,063.20</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="everything-nice">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Everything Nice by the Sea</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52976174a853aa4251b954d167e1b452b8?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Freeport, Montego Bay</p>
-      <h3>Everything Nice by the Sea</h3>
-      <p class="villa-summary">A stylish five-bedroom waterfront villa within the exclusive Emerald Quay gated community in Montego Bay, set along the edge of the Bogue Lagoon with beautiful water views and relaxed indoor-outdoor living. Designed for comfort, connection, and easy island days, the villa features spacious bedrooms, inviting shared areas, an infinity-edge pool, and a full villa staff exclusively curated and included in the villa rate.</p>
-      <div class="villa-stats">
-        <div><b>5</b><span>Bedrooms</span></div>
-        <div><b>5.5</b><span>Bathrooms</span></div>
-        <div><b>10</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Waterfront setting with ocean and sea views</li><li>Beach access</li><li>Infinity-edge pool setting</li><li>Alfresco dining area</li><li>Media room and office</li><li>Outdoor bar and grill</li><li>Outdoor shower</li><li>Surround sound and video game console</li><li>Wine cooler</li><li>Gated property</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Laundress</li><li>Houseman</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$2,200.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$8,800.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$1,029.00</strong></div>
-        <div><span>Total with Fees</span><strong>$9,829.00</strong></div>
-        <div><span>Gratuity</span><strong>$880.00</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="elsewhere">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>ELSEWHERE by the SEA</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav5237159eb13f6147bea5799b0a340c4e65?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Freeport, Montego Bay</p>
-      <h3>ELSEWHERE by the SEA</h3>
-      <p class="villa-summary">A stunning five-bedroom beachfront villa in the upscale gated community of The Lagoons, just minutes from Montego Bay’s airport and nearby attractions. Designed for relaxed coastal living, the villa features beautifully appointed bedrooms, generous indoor-outdoor spaces, a breezy veranda and bar, an infinity-edge pool, and direct beach access with kayaks and paddleboards for easy days by the sea.</p>
-      <div class="villa-stats">
-        <div><b>5</b><span>Bedrooms</span></div>
-        <div><b>5.5</b><span>Bathrooms</span></div>
-        <div><b>12</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Beachfront with direct beach access</li><li>Infinity-edge pool</li><li>Kayaks, paddleboards, and water sports gear</li><li>Veranda, balcony, terrace, and outdoor dining</li><li>Outdoor grill</li><li>Private yard and lawn</li><li>Games, books, toys, and Smart TV</li><li>Sound system and music library</li><li>Tennis and boat access available</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Laundress</li><li>Houseman</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$1,750.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$7,000.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$849.00</strong></div>
-        <div><span>Total with Fees</span><strong>$7,849.00</strong></div>
-        <div><span>Gratuity</span><strong>$700.00</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="bougainvilla">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>BougainVilla</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav522dd0810ed9ba4b8497b1a296bd200d20?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Spring Farm, Montego Bay</p>
-      <h3>BougainVilla</h3>
-      <p class="villa-summary">A beautiful contemporary villa in the upscale Spring Farm community, set on a hillside with sweeping views of the Caribbean Sea and the nearby Half Moon coastline. Designed with a calm, open flow and generous indoor-outdoor living spaces, the villa features sunlit interiors, spacious terraces, inviting lounge areas, a private pool, and elegant bedrooms created for comfort and ease.</p>
-      <div class="villa-stats">
-        <div><b>6</b><span>Bedrooms</span></div>
-        <div><b>6</b><span>Bathrooms</span></div>
-        <div><b>12</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Private pool</li><li>Alfresco dining area</li><li>Private fitness room</li><li>Spacious indoor-outdoor living areas</li><li>Flat-screen TVs in each bedroom</li><li>Air-conditioned bedrooms and living areas</li><li>Safe</li><li>Half Moon Beach Club access</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Cook</li><li>Butler</li><li>Housekeeper</li><li>Laundress</li><li>Gardeners</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$2,800.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$11,200.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$1,269.00</strong></div>
-        <div><span>Total with Fees</span><strong>$12,469.00</strong></div>
-        <div><span>Gratuity</span><strong>$1,120.00</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="abacus">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Abacus</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52b0c330079d9d46bdbf54b34999e1ae15?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Spring Farm, Montego Bay</p>
-      <h3>Abacus</h3>
-      <p class="villa-summary">A serene modern villa set within Montego Bay’s sought-after Spring Farm area, perched on a hillside with picturesque views over Half Moon Bay and the Caribbean Sea. Designed for comfort, privacy, and effortless island living, the villa features open-concept indoor-outdoor spaces, lush garden surroundings, a heated pool, inviting terraces, and beautifully appointed bedrooms with ensuite bathrooms.</p>
-      <div class="villa-stats">
-        <div><b>3</b><span>Bedrooms</span></div>
-        <div><b>4</b><span>Bathrooms</span></div>
-        <div><b>6</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Heated pool</li><li>Jacuzzi / whirlpool</li><li>Alfresco dining area</li><li>Bar</li><li>Fire pit</li><li>Media room</li><li>Outdoor grill</li><li>Patio and terrace</li><li>Sound system</li><li>Gated property</li><li>Handicap friendly</li><li>Half Moon Beach Club access</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeepers</li><li>Laundress</li><li>Gardener</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$2,000.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$8,000.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$949.00</strong></div>
-        <div><span>Total with Fees</span><strong>$8,949.00</strong></div>
-        <div><span>Gratuity</span><strong>$800.00</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="villa-rosa">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Villa Rosa</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52daa62a9eb0cb42afa4bb9ccf98dfca7b?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Spring Farm, Montego Bay</p>
-      <h3>Villa Rosa</h3>
-      <p class="villa-summary">A chic five-bedroom villa in Montego Bay’s exclusive Spring Farm neighborhood, designed with a contemporary Caribbean feel and a graceful balance of privacy, comfort, and style. Open living spaces, glass walls, landscaped gardens, inviting terraces, and a private pool create an easy indoor-outdoor flow, while a media room, bar, and separate fitness pavilion add thoughtful touches for relaxed island living.</p>
-      <div class="villa-stats">
-        <div><b>5</b><span>Bedrooms</span></div>
-        <div><b>6.5</b><span>Bathrooms</span></div>
-        <div><b>10</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Private pool</li><li>Fitness pavilion with treadmill</li><li>Spa area with massage table and mani-pedi setup</li><li>Yoga deck</li><li>Media room and bar</li><li>Gourmet kitchen</li><li>Apple TV and sound system</li><li>Outdoor shower</li><li>Ocean and sea views</li><li>Half Moon Beach Club access</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Chef</li><li>Butler</li><li>Housekeepers</li><li>Laundress</li><li>Night watchman</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$2,600.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$10,400.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$1,189.00</strong></div>
-        <div><span>Total with Fees</span><strong>$11,589.00</strong></div>
-        <div><span>Gratuity</span><strong>$1,040.00</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="flower-hill">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Flower Hill</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52712c450acbf54b4b8dcab55646c47f9b?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Spring Farm, Montego Bay</p>
-      <h3>Flower Hill</h3>
-      <p class="villa-summary">A grand six-bedroom Spring Farm villa designed for elevated group stays, featuring expansive entertainment spaces, resort-style wellness amenities, ocean views, and thoughtful accessibility features. With multiple bars, a games room, spa, gym, and a heated infinity pool, Flower Hill brings a polished private-estate feel to the group experience.</p>
-      <div class="villa-stats">
-        <div><b>6</b><span>Bedrooms</span></div>
-        <div><b>12</b><span>Bathrooms</span></div>
-        <div><b>16</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Heated 55’ x 30’ infinity pool and hot tub</li><li>Private gym with cardio, weights, and yoga mats</li><li>Spa with treatment tables and cedar steam room</li><li>Games room with ping pong, shuffleboard, pinball, foosball, card table, and Pac-Man</li><li>85” TV and 100” projection theatre</li><li>SONOS sound system throughout</li><li>Business center with computer and printer</li><li>Three bars: Pool Bar, Shell Bar, and Hemingway Bar</li><li>Elevator, ramps, and wheelchair-accessible showers</li><li>Safes in bedrooms</li><li>Half Moon Beach Club access</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Laundress</li><li>Gardener</li><li>24/7 security personnel</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$4,050.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$16,200.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$1,769.00</strong></div>
-        <div><span>Total with Fees</span><strong>$17,969.00</strong></div>
-        <div><span>Gratuity</span><strong>$1,620.00</strong></div>
-      </div>
-    </div>
-  </article>
-
-  <article class="villa" id="endless-summer">
-    <div class="villa-media">
-      <div class="gallery-box"><span>Gallery</span><strong>Endless Summer</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52588fb95690214d43a30212eee0b957e4?" target="_blank" rel="noopener">Open Gallery</a></div>
-    </div>
-    <div class="villa-body">
-      <p class="villa-location">Spring Farm, Montego Bay</p>
-      <h3>Endless Summer</h3>
-      <p class="villa-summary">An elegant seven-bedroom villa in Montego Bay’s prestigious Spring Farm area, offering a refined setting for relaxed gatherings, meaningful moments, and easy island living. Designed with generous indoor-outdoor spaces, the villa features beautifully appointed bedrooms, expansive verandas, inviting lounge and dining areas, lush tropical surroundings, and a private pool overlooking the Caribbean Sea.</p>
-      <div class="villa-stats">
-        <div><b>7</b><span>Bedrooms</span></div>
-        <div><b>7</b><span>Bathrooms</span></div>
-        <div><b>14</b><span>Sleeps</span></div>
-      </div>
-      <div class="amenity-grid">
-        <div><h4>Amenities</h4><ul><li>Private pool with ocean views</li><li>Alfresco dining area</li><li>Expansive verandas and terraces</li><li>Jacuzzi / whirlpool</li><li>Private fitness room</li><li>Games library and film library</li><li>Media room, office, and library</li><li>Outdoor grill and outdoor shower</li><li>Sound system</li><li>Security system and secured parking</li><li>Wheelchair accessible</li><li>Half Moon Beach Club access</li></ul></div>
-        <div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Gardener</li><li>Laundress</li></ul></div>
-      </div>
-      <div class="rate-panel">
-        <div><span>Nightly Rate</span><strong>$2,782.00</strong></div>
-        <div><span>4-Night Rental</span><strong>$11,128.00</strong></div>
-        <div><span>Fees & Taxes</span><strong>$1,261.80</strong></div>
-        <div><span>Total with Fees</span><strong>$12,389.80</strong></div>
-        <div><span>Gratuity</span><strong>$1,112.80</strong></div>
-      </div>
-    </div>
-  </article>
+<article class="villa" id="windsong">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Windsong</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav5233564eb5cfb24d709028a40e5abc30af?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Hopewell, Montego Bay</p>
+<h3>Windsong</h3>
+<p class="villa-summary">An exquisite and private four-bedroom villa set on three acres in the low foothills overlooking Montego Bay’s western coastline, designed for relaxed island living with an open-air layout that welcomes Jamaica’s gentle trade winds and sweeping views from sunrise over Montego Bay to golden sunsets toward Negril and the hills of Hanover. With serene surroundings, elegant shared spaces, and thoughtful villa service, it offers a warm and comfortable setting for the group to unwind, reconnect, and enjoy Jamaica beyond just a stay.</p>
+<div class="villa-stats">
+<div><b>4</b><span>Bedrooms</span></div>
+<div><b>4</b><span>Bathrooms</span></div>
+<div><b>8</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Alfresco dining area</li><li>Media room</li><li>Outdoor bar and grill</li><li>Patio and terrace</li><li>Ocean and sea views</li><li>Entertainment features including cable TV, DVD, film library, and iPod dock</li><li>Secured parking</li><li>Wheelchair accessible</li><li>Access to The Tryall Club</li></ul></div>
+<div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Gardeners</li><li>Laundress</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$1,903.00</strong></div>
+<div><span>4-Night Rental</span><strong>$7,612.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$910.20</strong></div>
+<div><span>Total with Fees</span><strong>$8,522.20</strong></div>
+<div><span>Gratuity</span><strong>$761.20</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="bambu">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Bambu</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav528f876bcd1a90494bb5e17559d8d613c7?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Hopewell, Montego Bay</p>
+<h3>Bambu</h3>
+<p class="villa-summary">An elegant, fully staffed hillside villa set high above Jamaica’s renowned North Coast, Bambu is perched on eight and a half acres with sweeping views of sea, sky, and lush tropical surroundings. The main villa features six well-appointed bedrooms, while a separate hillside cottage offers additional space, creating a relaxed setting for guests to spread out, gather, and enjoy easy island living.</p>
+<div class="villa-stats">
+<div><b>7</b><span>Bedrooms</span></div>
+<div><b>7</b><span>Bathrooms</span></div>
+<div><b>12</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Spectacular central round swimming pool</li><li>Children’s play area with playhouse and treehouse</li><li>Apple TV, satellite, sound system, and Xbox</li><li>Wireless internet access</li><li>Terrace with lounge area</li><li>Gazebo</li><li>Alfresco shower and tub</li><li>Wheelchair accessible</li><li>Access to The Tryall Club</li></ul></div>
+<div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Gardeners</li><li>Laundress</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$2,658.00</strong></div>
+<div><span>4-Night Rental</span><strong>$10,632.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$1,212.20</strong></div>
+<div><span>Total with Fees</span><strong>$11,844.20</strong></div>
+<div><span>Gratuity</span><strong>$1,063.20</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="everything-nice">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Everything Nice by the Sea</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52976174a853aa4251b954d167e1b452b8?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Freeport, Montego Bay</p>
+<h3>Everything Nice by the Sea</h3>
+<p class="villa-summary">A stylish five-bedroom waterfront villa within the exclusive Emerald Quay gated community in Montego Bay, set along the edge of the Bogue Lagoon with beautiful water views and relaxed indoor-outdoor living. Designed for comfort, connection, and easy island days, the villa features spacious bedrooms, inviting shared areas, an infinity-edge pool, and a full villa staff exclusively curated and included in the villa rate.</p>
+<div class="villa-stats">
+<div><b>5</b><span>Bedrooms</span></div>
+<div><b>5.5</b><span>Bathrooms</span></div>
+<div><b>10</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Waterfront setting with ocean and sea views</li><li>Beach access</li><li>Infinity-edge pool setting</li><li>Alfresco dining area</li><li>Media room and office</li><li>Outdoor bar and grill</li><li>Outdoor shower</li><li>Surround sound and video game console</li><li>Wine cooler</li><li>Gated property</li></ul></div>
+<div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Laundress</li><li>Houseman</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$2,200.00</strong></div>
+<div><span>4-Night Rental</span><strong>$8,800.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$1,029.00</strong></div>
+<div><span>Total with Fees</span><strong>$9,829.00</strong></div>
+<div><span>Gratuity</span><strong>$880.00</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="elsewhere">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>ELSEWHERE by the SEA</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav5237159eb13f6147bea5799b0a340c4e65?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Freeport, Montego Bay</p>
+<h3>ELSEWHERE by the SEA</h3>
+<p class="villa-summary">A stunning five-bedroom beachfront villa in the upscale gated community of The Lagoons, just minutes from Montego Bay’s airport and nearby attractions. Designed for relaxed coastal living, the villa features beautifully appointed bedrooms, generous indoor-outdoor spaces, a breezy veranda and bar, an infinity-edge pool, and direct beach access with kayaks and paddleboards for easy days by the sea.</p>
+<div class="villa-stats">
+<div><b>5</b><span>Bedrooms</span></div>
+<div><b>5.5</b><span>Bathrooms</span></div>
+<div><b>12</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Beachfront with direct beach access</li><li>Infinity-edge pool</li><li>Kayaks, paddleboards, and water sports gear</li><li>Veranda, balcony, terrace, and outdoor dining</li><li>Outdoor grill</li><li>Private yard and lawn</li><li>Games, books, toys, and Smart TV</li><li>Sound system and music library</li><li>Tennis and boat access available</li></ul></div>
+<div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Laundress</li><li>Houseman</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$1,750.00</strong></div>
+<div><span>4-Night Rental</span><strong>$7,000.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$849.00</strong></div>
+<div><span>Total with Fees</span><strong>$7,849.00</strong></div>
+<div><span>Gratuity</span><strong>$700.00</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="bougainvilla">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>BougainVilla</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav522dd0810ed9ba4b8497b1a296bd200d20?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Spring Farm, Montego Bay</p>
+<h3>BougainVilla</h3>
+<p class="villa-summary">A beautiful contemporary villa in the upscale Spring Farm community, set on a hillside with sweeping views of the Caribbean Sea and the nearby Half Moon coastline. Designed with a calm, open flow and generous indoor-outdoor living spaces, the villa features sunlit interiors, spacious terraces, inviting lounge areas, a private pool, and elegant bedrooms created for comfort and ease.</p>
+<div class="villa-stats">
+<div><b>6</b><span>Bedrooms</span></div>
+<div><b>6</b><span>Bathrooms</span></div>
+<div><b>12</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Private pool</li><li>Alfresco dining area</li><li>Private fitness room</li><li>Spacious indoor-outdoor living areas</li><li>Flat-screen TVs in each bedroom</li><li>Air-conditioned bedrooms and living areas</li><li>Safe</li><li>Half Moon Beach Club access</li></ul></div>
+<div><h4>Staff</h4><ul><li>Cook</li><li>Butler</li><li>Housekeeper</li><li>Laundress</li><li>Gardeners</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$2,800.00</strong></div>
+<div><span>4-Night Rental</span><strong>$11,200.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$1,269.00</strong></div>
+<div><span>Total with Fees</span><strong>$12,469.00</strong></div>
+<div><span>Gratuity</span><strong>$1,120.00</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="abacus">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Abacus</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52b0c330079d9d46bdbf54b34999e1ae15?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Spring Farm, Montego Bay</p>
+<h3>Abacus</h3>
+<p class="villa-summary">A serene modern villa set within Montego Bay’s sought-after Spring Farm area, perched on a hillside with picturesque views over Half Moon Bay and the Caribbean Sea. Designed for comfort, privacy, and effortless island living, the villa features open-concept indoor-outdoor spaces, lush garden surroundings, a heated pool, inviting terraces, and beautifully appointed bedrooms with ensuite bathrooms.</p>
+<div class="villa-stats">
+<div><b>3</b><span>Bedrooms</span></div>
+<div><b>4</b><span>Bathrooms</span></div>
+<div><b>6</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Heated pool</li><li>Jacuzzi / whirlpool</li><li>Alfresco dining area</li><li>Bar</li><li>Fire pit</li><li>Media room</li><li>Outdoor grill</li><li>Patio and terrace</li><li>Sound system</li><li>Gated property</li><li>Handicap friendly</li><li>Half Moon Beach Club access</li></ul></div>
+<div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeepers</li><li>Laundress</li><li>Gardener</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$2,000.00</strong></div>
+<div><span>4-Night Rental</span><strong>$8,000.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$949.00</strong></div>
+<div><span>Total with Fees</span><strong>$8,949.00</strong></div>
+<div><span>Gratuity</span><strong>$800.00</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="villa-rosa">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Villa Rosa</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52daa62a9eb0cb42afa4bb9ccf98dfca7b?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Spring Farm, Montego Bay</p>
+<h3>Villa Rosa</h3>
+<p class="villa-summary">A chic five-bedroom villa in Montego Bay’s exclusive Spring Farm neighborhood, designed with a contemporary Caribbean feel and a graceful balance of privacy, comfort, and style. Open living spaces, glass walls, landscaped gardens, inviting terraces, and a private pool create an easy indoor-outdoor flow, while a media room, bar, and separate fitness pavilion add thoughtful touches for relaxed island living.</p>
+<div class="villa-stats">
+<div><b>5</b><span>Bedrooms</span></div>
+<div><b>6.5</b><span>Bathrooms</span></div>
+<div><b>10</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Private pool</li><li>Fitness pavilion with treadmill</li><li>Spa area with massage table and mani-pedi setup</li><li>Yoga deck</li><li>Media room and bar</li><li>Gourmet kitchen</li><li>Apple TV and sound system</li><li>Outdoor shower</li><li>Ocean and sea views</li><li>Half Moon Beach Club access</li></ul></div>
+<div><h4>Staff</h4><ul><li>Chef</li><li>Butler</li><li>Housekeepers</li><li>Laundress</li><li>Night watchman</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$2,600.00</strong></div>
+<div><span>4-Night Rental</span><strong>$10,400.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$1,189.00</strong></div>
+<div><span>Total with Fees</span><strong>$11,589.00</strong></div>
+<div><span>Gratuity</span><strong>$1,040.00</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="flower-hill">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Flower Hill</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52712c450acbf54b4b8dcab55646c47f9b?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Spring Farm, Montego Bay</p>
+<h3>Flower Hill</h3>
+<p class="villa-summary">A grand six-bedroom Spring Farm villa designed for elevated group stays, featuring expansive entertainment spaces, resort-style wellness amenities, ocean views, and thoughtful accessibility features. With multiple bars, a games room, spa, gym, and a heated infinity pool, Flower Hill brings a polished private-estate feel to the group experience.</p>
+<div class="villa-stats">
+<div><b>6</b><span>Bedrooms</span></div>
+<div><b>12</b><span>Bathrooms</span></div>
+<div><b>16</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Heated 55’ x 30’ infinity pool and hot tub</li><li>Private gym with cardio, weights, and yoga mats</li><li>Spa with treatment tables and cedar steam room</li><li>Games room with ping pong, shuffleboard, pinball, foosball, card table, and Pac-Man</li><li>85” TV and 100” projection theatre</li><li>SONOS sound system throughout</li><li>Business center with computer and printer</li><li>Three bars: Pool Bar, Shell Bar, and Hemingway Bar</li><li>Elevator, ramps, and wheelchair-accessible showers</li><li>Safes in bedrooms</li><li>Half Moon Beach Club access</li></ul></div>
+<div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Laundress</li><li>Gardener</li><li>24/7 security personnel</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$4,050.00</strong></div>
+<div><span>4-Night Rental</span><strong>$16,200.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$1,769.00</strong></div>
+<div><span>Total with Fees</span><strong>$17,969.00</strong></div>
+<div><span>Gratuity</span><strong>$1,620.00</strong></div>
+</div>
+</div>
+</article>
+<article class="villa" id="endless-summer">
+<div class="villa-media">
+<div class="gallery-box"><span>Gallery</span><strong>Endless Summer</strong><p>View full photo gallery</p><a class="gallery-link" href="https://workdrive.zohoexternal.com/embed/cav52588fb95690214d43a30212eee0b957e4?" rel="noopener" target="_blank">Open Gallery</a></div>
+</div>
+<div class="villa-body">
+<p class="villa-location">Spring Farm, Montego Bay</p>
+<h3>Endless Summer</h3>
+<p class="villa-summary">An elegant seven-bedroom villa in Montego Bay’s prestigious Spring Farm area, offering a refined setting for relaxed gatherings, meaningful moments, and easy island living. Designed with generous indoor-outdoor spaces, the villa features beautifully appointed bedrooms, expansive verandas, inviting lounge and dining areas, lush tropical surroundings, and a private pool overlooking the Caribbean Sea.</p>
+<div class="villa-stats">
+<div><b>7</b><span>Bedrooms</span></div>
+<div><b>7</b><span>Bathrooms</span></div>
+<div><b>14</b><span>Sleeps</span></div>
+</div>
+<div class="amenity-grid">
+<div><h4>Amenities</h4><ul><li>Private pool with ocean views</li><li>Alfresco dining area</li><li>Expansive verandas and terraces</li><li>Jacuzzi / whirlpool</li><li>Private fitness room</li><li>Games library and film library</li><li>Media room, office, and library</li><li>Outdoor grill and outdoor shower</li><li>Sound system</li><li>Security system and secured parking</li><li>Wheelchair accessible</li><li>Half Moon Beach Club access</li></ul></div>
+<div><h4>Staff</h4><ul><li>Butler</li><li>Chef</li><li>Housekeeper</li><li>Gardener</li><li>Laundress</li></ul></div>
+</div>
+<div class="rate-panel">
+<div><span>Nightly Rate</span><strong>$2,782.00</strong></div>
+<div><span>4-Night Rental</span><strong>$11,128.00</strong></div>
+<div><span>Fees &amp; Taxes</span><strong>$1,261.80</strong></div>
+<div><span>Total with Fees</span><strong>$12,389.80</strong></div>
+<div><span>Gratuity</span><strong>$1,112.80</strong></div>
+</div>
+</div>
+</article>
 </section>
-
 <section class="final-note">
-  <div class="section-title"><span>Important Notes</span><h2>Before confirming a villa.</h2></div>
-  <p>All pricing is provided as a planning estimate and remains subject to confirmation. Booking totals include the 4-night villa rental, 10% fees and taxes, and a US$149 damage waiver per villa. Staff gratuity is calculated on the villa rental rate before fees and taxes. Food and beverage is estimated at US$55 per person, per day for 5 days and may vary depending on menus, market pricing, beverages, alcohol, specialty requests, and final guest preferences. Per-person pricing is based on double occupancy and the stated guest count for each option. Once confirmed, the villa stay is non-refundable. A 25% deposit is required to secure the reservation, with the remaining balance due 60 days prior to arrival.</p>
+<div class="section-title"><span>Important Notes</span><h2>Before confirming a villa.</h2></div>
+<p>All pricing is provided as a planning estimate and remains subject to confirmation. Booking totals include the 4-night villa rental, 10% fees and taxes, and a US$149 damage waiver per villa. Staff gratuity is calculated on the villa rental rate before fees and taxes. Food and beverage is estimated at US$55 per person, per day for 5 days and may vary depending on menus, market pricing, beverages, alcohol, specialty requests, and final guest preferences. Per-person pricing is based on double occupancy and the stated guest count for each option. Once confirmed, the villa stay is non-refundable. A 25% deposit is required to secure the reservation, with the remaining balance due 60 days prior to arrival.</p>
 </section>
 </main>
-
 <section class="contact-note">
-  <div class="section-title">
-    <span>Questions</span>
-    <h2>We’re here to help.</h2>
-  </div>
-  <p>For questions about the villa options, pricing, rooming, amenities, or next steps, please contact Kyle at <a href="mailto:kyle@caribbeanvillaescapes.com?subject=ICHS%20Alumna%20%7C%20Question%20about%20Stay">kyle@caribbeanvillaescapes.com</a>.</p>
+<div class="section-title">
+<span>Questions</span>
+<h2>We’re here to help.</h2>
+</div>
+<p>For questions about the villa options, pricing, rooming, amenities, or next steps, please contact Kyle at <a href="mailto:kyle@caribbeanvillaescapes.com?subject=ICHS%20Alumna%20%7C%20Question%20about%20Stay">kyle@caribbeanvillaescapes.com</a>.</p>
 </section>
-
 <footer>Prepared for the ICHS Alumnae getaway | Caribbean Villa Escapes E&amp;O.E.</footer>
 </body>
 </html>
