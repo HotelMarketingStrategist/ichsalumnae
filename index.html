@@ -515,6 +515,56 @@ section[id="freeport"],
 section[id="hopewell"]{
   margin-bottom:34px;
 }
+
+/* Floating WhatsApp button */
+.whatsapp-float{
+  position:fixed;
+  right:24px;
+  bottom:24px;
+  z-index:999;
+  display:flex;
+  align-items:center;
+  gap:10px;
+  padding:14px 18px;
+  border-radius:999px;
+  background:#25D366;
+  color:#ffffff;
+  text-decoration:none;
+  font-weight:800;
+  box-shadow:0 18px 42px rgba(0,0,0,.22);
+  transition:transform .2s ease, box-shadow .2s ease, filter .2s ease;
+}
+.whatsapp-float:hover{
+  transform:translateY(-2px);
+  box-shadow:0 22px 48px rgba(0,0,0,.28);
+  filter:brightness(.98);
+}
+.whatsapp-float svg{
+  width:22px;
+  height:22px;
+  flex:0 0 auto;
+  fill:currentColor;
+}
+.whatsapp-float span{
+  color:#ffffff;
+  font-size:14px;
+  letter-spacing:.01em;
+}
+@media(max-width:620px){
+  .whatsapp-float{
+    right:16px;
+    bottom:16px;
+    padding:14px;
+  }
+  .whatsapp-float span{
+    display:none;
+  }
+  .whatsapp-float svg{
+    width:25px;
+    height:25px;
+  }
+}
+
 </style>
 </head>
 <body>
@@ -1338,5 +1388,11 @@ section[id="hopewell"]{
 <p>For questions about the villa options, pricing, rooming, amenities, or next steps, please contact Kyle at <a href="mailto:kyle@caribbeanvillaescapes.com?subject=ICHS%20Alumna%20%7C%20Question%20about%20Stay">kyle@caribbeanvillaescapes.com</a>.</p>
 </section>
 <footer>Prepared for the ICHS Alumnae getaway | Caribbean Villa Escapes E&amp;O.E.</footer>
+
+<a class="whatsapp-float" href="https://wa.me/18763339703?text=Hi%20Kyle%2C%20I%20would%20love%20to%20learn%20more%20about%20the%20ICHS%20Alumnae%20villa%20options.%20Can%20you%20help%20me%20with%20the%20stay%3F" aria-label="Chat with us on WhatsApp" target="_blank" rel="noopener">
+<svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16.04 3.2A12.72 12.72 0 0 0 5.2 22.6L3.6 28.8l6.36-1.56A12.75 12.75 0 1 0 16.04 3.2Zm0 23.28a10.5 10.5 0 0 1-5.36-1.48l-.38-.22-3.76.92 1-3.64-.25-.4a10.46 10.46 0 1 1 8.75 4.82Zm5.78-7.84c-.32-.16-1.88-.92-2.16-1.02-.3-.12-.5-.16-.72.16-.22.32-.84 1.02-1.04 1.24-.18.22-.38.24-.7.08-.32-.16-1.34-.5-2.56-1.58-.94-.84-1.58-1.88-1.76-2.2-.18-.32-.02-.5.14-.66.14-.14.32-.38.48-.56.16-.2.22-.32.32-.54.1-.22.06-.42-.02-.58-.08-.16-.72-1.72-.98-2.36-.26-.62-.52-.54-.72-.54h-.62c-.22 0-.58.08-.88.42-.3.32-1.16 1.14-1.16 2.78s1.2 3.22 1.36 3.44c.16.22 2.36 3.6 5.72 5.04.8.34 1.42.54 1.9.7.8.26 1.52.22 2.1.14.64-.1 1.88-.76 2.14-1.5.26-.74.26-1.38.18-1.5-.08-.14-.28-.22-.6-.38Z"/></svg>
+<span>WhatsApp Us</span>
+</a>
+
 </body>
 </html>
