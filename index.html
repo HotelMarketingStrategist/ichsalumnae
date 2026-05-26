@@ -228,106 +228,132 @@ footer{background:rgba(0,70,89,.06);color:var(--muted);padding:34px 7vw;text-ali
 }
 
 
-/* Updated villa listing layout for detailed accommodations */
-.villa{
-  display:block;
-  min-height:auto;
-}
-.villa:nth-child(even){
-  display:block;
-}
-.villa:nth-child(even) .villa-media{
-  order:0;
-}
-.villa-media{
-  min-height:520px;
-}
-.villa-body{
-  padding:52px;
-}
-.accommodation-block{
-  margin:26px 0;
-  padding:22px 24px;
-}
-.accommodation-block p{
-  max-width:1040px;
-}
-.amenity-grid{
-  grid-template-columns:1fr 1fr;
-}
-@media(max-width:760px){
-  .villa-media{
-    min-height:360px;
-  }
-  .villa-body{
-    padding:30px;
-  }
-  .accommodation-block{
-    padding:18px;
-  }
-  .amenity-grid{
-    grid-template-columns:1fr;
-  }
-}
-
-
-/* Strong accommodation layout fix */
+/* Stacked villa listing layout */
 html, body{
   max-width:100%;
   overflow-x:hidden;
 }
-.villa{
-  display:flex !important;
-  flex-direction:column !important;
+
+.villa,
+.villa:nth-child(even){
+  display:block !important;
   width:100%;
   max-width:100%;
-  overflow:hidden;
   min-height:auto !important;
+  overflow:hidden;
 }
-.villa:nth-child(even){
-  display:flex !important;
-  grid-template-columns:none !important;
-}
+
 .villa:nth-child(even) .villa-media{
   order:0 !important;
 }
+
 .villa-media{
   width:100%;
   max-width:100%;
-  min-height:500px !important;
+  min-height:460px !important;
 }
+
 .villa-body{
   width:100%;
   max-width:100%;
-  min-width:0;
   padding:52px !important;
+  overflow:hidden;
 }
+
+.villa-stats{
+  max-width:760px;
+}
+
 .accommodation-block{
   width:100%;
   max-width:100%;
+  margin:28px 0;
+  padding:0 !important;
+  background:white;
+  border:1px solid var(--line);
+  border-left:4px solid var(--coral);
   overflow:hidden;
-  white-space:normal;
-  overflow-wrap:break-word;
-  word-break:normal;
 }
-.accommodation-block span,
-.accommodation-block h5,
+
+.accommodation-block strong{
+  display:block;
+  padding:18px 22px 8px;
+  color:var(--deep-teal);
+  font-size:14px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+}
+
+.accommodation-block span{
+  display:block;
+  padding:0 22px 18px;
+  color:var(--deep-teal);
+  font-weight:800;
+  line-height:1.5;
+}
+
+.accommodation-block h5{
+  margin:0;
+  padding:16px 22px 8px;
+  background:rgba(106,210,200,.10);
+  color:var(--deep-teal);
+  font-size:13px;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  border-top:1px solid var(--line);
+}
+
 .accommodation-block p{
-  max-width:100%;
+  display:block;
+  margin:0;
+  padding:13px 22px;
+  color:var(--muted);
+  font-size:14px;
+  line-height:1.65;
+  border-top:1px solid rgba(0,70,89,.10);
   overflow-wrap:break-word;
-  word-break:normal;
 }
-@media(max-width:760px){
+
+.accommodation-block h5 + p{
+  border-top:0;
+}
+
+.amenity-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:22px;
+}
+
+.rate-panel{
+  grid-template-columns:repeat(5,1fr);
+}
+
+@media(max-width:900px){
   .villa-body{
-    padding:28px !important;
+    padding:34px !important;
   }
   .villa-media{
-    min-height:340px !important;
+    min-height:380px !important;
   }
-  .gallery-box{
-    left:18px;
-    right:18px;
-    bottom:18px;
+  .amenity-grid,
+  .rate-panel{
+    grid-template-columns:1fr;
+  }
+}
+
+@media(max-width:620px){
+  .villa-body{
+    padding:26px !important;
+  }
+  .villa-media{
+    min-height:320px !important;
+  }
+  .accommodation-block strong,
+  .accommodation-block span,
+  .accommodation-block h5,
+  .accommodation-block p{
+    padding-left:16px;
+    padding-right:16px;
   }
 }
 
